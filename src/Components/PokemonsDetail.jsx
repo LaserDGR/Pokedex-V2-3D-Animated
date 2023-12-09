@@ -63,18 +63,18 @@ const PokemonsDetail = () => {
       <Card.ImgOverlay>
         <Card.Title style={{"fontSize": "40px", "fontFamily": "Pokemon-Solid"}}>{pokemon.name?.toUpperCase()}</Card.Title>
         <Card.Text style={{"display": "flex", "marginLeft": "440px", "marginTop": "15px"}}>
-        <h4>Weight<br /> {pokemon.weight} </h4> <h4 style={{"marginLeft": "150px"}}>Height<br /> {pokemon.height}</h4>
-        <div style={{"marginLeft": "100px"}}>
+        <h4>Weight<br /> {pokemon.weight} </h4> <h4 style={{"marginLeft": "300px"}}>Height<br /> {pokemon.height}</h4>
+        <div style={{"marginLeft": "150px"}}>
         <h4 style={{"marginTop": "150px"}}>HP <br />{pokemon.stats?.[0].base_stat}</h4>
         <h4 style={{"marginTop": "50px"}}>ATTACK <br />{pokemon.stats?.[1].base_stat}</h4>
         </div>
-        <div style={{"marginLeft": "-950px"}}>
+        <div style={{"marginLeft": "-1150px"}}>
         <h4 style={{"marginTop": "150px"}}>DEFENSE <br /> {pokemon.stats?.[2].base_stat}</h4>
         <h4 style={{"marginTop": "50px"}}>SPEED <br />{pokemon.stats?.[3].base_stat}</h4>
         </div>
 
         </Card.Text>
-        <Card.Text><p style={{"marginLeft": "650px","width": "75px", "marginTop": "80px"}}>#{pokemon.id}</p></Card.Text>
+        <Card.Text><p style={{"marginLeft": "760px","width": "75px", "marginTop": "80px"}}>#{pokemon.id}</p></Card.Text>
       </Card.ImgOverlay>
     </Card>
 

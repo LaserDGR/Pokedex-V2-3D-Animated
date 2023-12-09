@@ -88,7 +88,7 @@ const Pokedex = () => {
 
      <div>
      <Card className="bg-transparent text-white">
-     <Card.Img src={pokemon} alt="Card image"  style={{"marginTop": "85px", "marginRight": "450px"}}/>
+     <Card.Img src={pokemon} alt="Card image"  style={{"marginTop": "85px", "textAlign": "center"}}/>
       <Card.Img src={header} alt="Card image"  style={{"marginTop": "-520px", "marginLeft": "20px", "height": "500px", "width": "500px"}}/>
       <Card.Img src={header2} alt="Card image"  style={{"marginTop": "-450px", "marginRight": "20px"}}/>
       <Card.ImgOverlay>
